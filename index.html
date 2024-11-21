@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="choose.css">
+    <title>Typing Speed Test</title>
+</head>
+
+<body>
+    <div class="gameTitle">
+        Typing Speed Test
+    </div>
+    <div class="container">
+        <div class="type">
+            <div class="words cl0" onclick="chooseType(this.className)">Typing Words</div>
+            <div class="texts cl0" onclick="chooseType(this.className)">Typing Texts</div>
+        </div>
+        <div class="choosLevele">
+            Choose Level :
+        </div>
+        <div class="levels">
+            <div class="Easy cl" onclick="chooseLevel(this.className)">Easy</div>
+            <div class="Normal cl" onclick="chooseLevel(this.className)">Normal</div>
+            <div class="Hard cl" onclick="chooseLevel(this.className)">Hard</div>
+        </div>
+        <div class="sureChooseBtn start">
+            Done
+        </div>
+    </div>
+    <script src="./choose.js"></script>
+</body>
+
+</html>

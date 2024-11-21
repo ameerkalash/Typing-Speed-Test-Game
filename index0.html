@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Typing Speed Test</title>
+</head>
+
+<body>
+    <div class="gameTitle">
+        Typing Speed Test
+    </div>
+    <div class="container">
+        <div class="message">
+            You Are Playing On
+            <span class="lvl"></span> Level && You Have <span class="seconds"></span> Seconds To Type
+        </div>
+        <button type="submit" class="start">Start Playing</button>
+        <div class="theTextSpan">Random Word Will Show Here</div>
+        <input class="input"></input>
+        <div class="control">
+            <div class="time">Time Left: <span class="timeLeft" id="timeLeft"></span> Seconds</div>
+            <div class="score">Score: <span class="got" id="got">0</span> From <span class="total" id="total"></span>
+            </div>
+        </div>
+        <div class="finish"></div>
+        <div class="upcoming-text">
+            Words Will Show Here
+        </div>
+    </div>
+    <script src="./logic.js"></script>
+    <script src="./main.js"></script>
+</body>
+
+
+</html>

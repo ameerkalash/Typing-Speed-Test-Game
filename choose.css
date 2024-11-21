@@ -1,0 +1,61 @@
+.type {
+  margin: 20px 0px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  div {
+    padding: 15px;
+    background-color: var(--main-color);
+    width: 45%;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    text-align: center;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+  }
+  .words {
+    background-color: var(--clickBtn-color);
+  }
+}
+
+.choosLevele {
+  color: var(--second-color);
+  font-size: 20px;
+  background-color: white;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+.levels {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  div {
+    padding: 15px;
+    background-color: var(--main-color);
+    width: 45%;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    text-align: center;
+    margin: 5px;
+    color: white;
+  }
+  .Easy {
+    background-color: var(--clickBtn-color);
+  }
+}
+
+.sureChooseBtn {
+  width: 80%;
+  margin: auto;
+  padding: 10px;
+  margin-top: 20px;
+}
